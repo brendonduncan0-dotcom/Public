@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "category-folder/Giant Kobold.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Giant Kobold"
+              "title": "index"
             }
           }
         ]
@@ -219,13 +219,16 @@
       "initiative-tracker:Initiative Tracker Encounter Builder": false
     }
   },
-  "active": "b77831b90dd9f87b",
+  "active": "47ef711f7e8c1d64",
   "lastOpenFiles": [
-    "index.md",
     "category-folder/Giant Kobold.md",
-    "tools",
-    "category-folder/Some note.md",
     "category-folder/index.md",
+    "category-folder/Some note.md",
+    "index.md",
+    "skills/world-generator/SKILL.md",
+    "skills/world-generator",
+    "skills",
+    "tools",
     "Untitled.md",
     "Test Folder/Test Note.md",
     "Test Folder",
