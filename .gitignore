@@ -1,1 +1,4 @@
 .trash/*
+
+# Ignore MCP Server executable due to size
+mcp-server.exe

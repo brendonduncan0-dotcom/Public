@@ -2,5 +2,8 @@
   "obsidian-git",
   "obsidian-5e-statblocks",
   "obsidian-dice-roller",
-  "initiative-tracker"
+  "initiative-tracker",
+  "obsidian-local-rest-api",
+  "mcp-tools",
+  "templater-obsidian"
 ]
