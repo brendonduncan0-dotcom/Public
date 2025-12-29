@@ -1,0 +1,203 @@
+/* Fantasy Statblocks for Quartz 4.0 */
+
+/* CSS Variables */
+:root {
+  --statblock-primary-color: #7a200d;
+  --statblock-rule-color: #922610;
+  --statblock-bar-color: #e69a28;
+  --statblock-background-color: #fdf1dc;
+  --statblock-text-color: #000;
+}
+
+/* Main Container - Target code blocks with statblock language */
+.statblock,
+pre:has(> code.language-statblock),
+div[data-callout="statblock"] {
+  background-color: var(--statblock-background-color) !important;
+  border: 1px solid var(--statblock-primary-color) !important;
+  padding: 0.6cm 0.7cm !important;
+  margin: 1em 0 !important;
+  box-shadow: 0 0 1.5em rgba(122, 32, 13, 0.3) !important;
+  font-family: 'Noto Sans', 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif !important;
+  font-size: 13.5px !important;
+  line-height: 1.4 !important;
+  color: var(--statblock-text-color) !important;
+  page-break-inside: avoid;
+  break-inside: avoid;
+  border-radius: 0 !important;
+  
+  code {
+    background: transparent !important;
+    color: var(--statblock-text-color) !important;
+    padding: 0 !important;
+    font-family: inherit !important;
+    font-size: inherit !important;
+    white-space: pre-wrap !important;
+  }
+}
+
+/* Remove default code block styling */
+pre:has(> code.language-statblock) {
+  background: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+}
+
+/* Statblock content wrapper */
+.statblock-content {
+  width: 100%;
+}
+
+/* Creature name/title */
+.statblock h1,
+.statblock-name {
+  font-family: 'Libre Baskerville', 'Lora', 'Calisto MT', Georgia, serif !important;
+  color: var(--statblock-primary-color) !important;
+  font-weight: 700 !important;
+  font-size: 23px !important;
+  line-height: 1.2 !important;
+  margin: 0 0 0 0 !important;
+  padding-bottom: 0.2em !important;
+  border-bottom: 2px solid var(--statblock-primary-color) !important;
+}
+
+/* Type/size line */
+.statblock h2,
+.statblock-meta {
+  font-size: 12px !important;
+  font-style: italic !important;
+  margin: 0.3em 0 !important;
+  font-weight: normal !important;
+  color: var(--statblock-text-color) !important;
+  border: none !important;
+}
+
+/* Horizontal rules - tapered */
+.statblock hr,
+.statblock-separator {
+  border: none !important;
+  border-top: 2.5px solid var(--statblock-bar-color) !important;
+  margin: 0.3cm 0 !important;
+  position: relative !important;
+  height: 0 !important;
+}
+
+.statblock hr::before,
+.statblock-separator::before {
+  content: '' !important;
+  position: absolute !important;
+  left: 0 !important;
+  top: -2.5px !important;
+  width: 100% !important;
+  height: 2.5px !important;
+  background: linear-gradient(
+    to right,
+    var(--statblock-bar-color) 0%,
+    var(--statblock-bar-color) 100%
+  ) !important;
+}
+
+/* Top stats section */
+.statblock-top-stats,
+.statblock > p:nth-of-type(1),
+.statblock > p:nth-of-type(2),
+.statblock > p:nth-of-type(3) {
+  margin: 0.3em 0 !important;
+  line-height: 1.5 !important;
+}
+
+/* Bold labels in stats */
+.statblock strong,
+.statblock b {
+  font-weight: 700 !important;
+  color: var(--statblock-primary-color) !important;
+}
+
+/* Ability scores table */
+.statblock table,
+.statblock-abilities {
+  width: 100% !important;
+  border: none !important;
+  border-collapse: collapse !important;
+  margin: 0.5em 0 !important;
+  text-align: center !important;
+  
+  th, td {
+    border: none !important;
+    padding: 0.2em !important;
+    font-size: 12px !important;
+    text-align: center !important;
+  }
+  
+  th {
+    font-weight: bold !important;
+    text-transform: uppercase !important;
+    font-size: 10px !important;
+  }
+}
+
+/* Section headers (Actions, Legendary Actions, etc) */
+.statblock h3,
+.statblock-section-title {
+  font-family: 'Libre Baskerville', 'Lora', Georgia, serif !important;
+  color: var(--statblock-primary-color) !important;
+  font-size: 18px !important;
+  font-weight: 700 !important;
+  border-bottom: 1px solid var(--statblock-rule-color) !important;
+  margin: 0.4em 0 0.2em 0 !important;
+  padding-bottom: 0.1em !important;
+}
+
+/* Property/trait entries */
+.statblock-property,
+.statblock > p {
+  margin: 0.5em 0 !important;
+  text-indent: -1em !important;
+  padding-left: 1em !important;
+}
+
+/* Property names (italic, bold) */
+.statblock-property-name,
+.statblock em strong,
+.statblock strong em {
+  font-weight: 700 !important;
+  font-style: italic !important;
+  color: var(--statblock-primary-color) !important;
+}
+
+/* Lists within statblocks */
+.statblock ul,
+.statblock ol {
+  margin: 0.3em 0 !important;
+  padding-left: 1.5em !important;
+}
+
+.statblock li {
+  margin: 0.2em 0 !important;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .statblock {
+    font-size: 12px !important;
+    padding: 0.4cm 0.5cm !important;
+  }
+  
+  .statblock h1,
+  .statblock-name {
+    font-size: 20px !important;
+  }
+  
+  .statblock h3,
+  .statblock-section-title {
+    font-size: 16px !important;
+  }
+}
+
+/* Print styles */
+@media print {
+  .statblock {
+    box-shadow: none !important;
+    border: 2px solid var(--statblock-primary-color) !important;
+  }
+}
