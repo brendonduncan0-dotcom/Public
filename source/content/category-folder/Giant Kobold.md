@@ -16,13 +16,13 @@ stats:
   - 10
   - 9
   - 10
-saves:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+# saves:
+#  - 
+# - 
+# - 
+# - 
+# - 
+# - 
 skillsaves:
   - perception: 1
   - stealth: 4
