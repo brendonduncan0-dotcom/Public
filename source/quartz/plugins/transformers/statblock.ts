@@ -65,7 +65,7 @@ export const StatblockTransformer: QuartzTransformerPlugin = () => {
                     // First row: ability names
                     html += `      <tr>\n`
                     abilities.forEach(ability => {
-                      html += `        <th>${ability}</th>\n`
+                      html += `        <th><strong>${ability}</strong></th>\n`
                     })
                     html += `      </tr>\n`
                     
