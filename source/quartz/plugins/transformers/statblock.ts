@@ -93,11 +93,42 @@ export const StatblockTransformer: QuartzTransformerPlugin = () => {
                     }
                   }
 
+                  /*
+                  //V1
                   if (data.skillsaves) {
                     const skills: string[] = []
                     for (const [skill, bonus] of Object.entries(data.skillsaves)) {
                       skills.push(`${skill.charAt(0).toUpperCase() + skill.slice(1)} +${bonus}`)
                     }
+                    if (skills.length > 0) {
+                      html += `  <p><strong>Skills</strong> ${skills.join(", ")}</p>\n`
+                    }
+                  }   
+                 */
+
+                  //V2
+                  if (data.skillsaves) {
+                    const skills: string[] = []
+                    
+                    // Handle both object format and array format
+                    if (Array.isArray(data.skillsaves)) {
+                      // Array format: [{perception: 1}, {stealth: 4}]
+                      data.skillsaves.forEach((skillObj: any) => {
+                        for (const [skill, bonus] of Object.entries(skillObj)) {
+                          const capitalizedSkill = skill.charAt(0).toUpperCase() + skill.slice(1)
+                          const bonusStr = typeof bonus === 'number' && bonus >= 0 ? `+${bonus}` : `${bonus}`
+                          skills.push(`${capitalizedSkill} ${bonusStr}`)
+                        }
+                      })
+                    } else if (typeof data.skillsaves === 'object') {
+                      // Object format: {perception: 1, stealth: 4}
+                      for (const [skill, bonus] of Object.entries(data.skillsaves)) {
+                        const capitalizedSkill = skill.charAt(0).toUpperCase() + skill.slice(1)
+                        const bonusStr = typeof bonus === 'number' && bonus >= 0 ? `+${bonus}` : `${bonus}`
+                        skills.push(`${capitalizedSkill} ${bonusStr}`)
+                      }
+                    }
+                    
                     if (skills.length > 0) {
                       html += `  <p><strong>Skills</strong> ${skills.join(", ")}</p>\n`
                     }
