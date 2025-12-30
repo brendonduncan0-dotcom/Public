@@ -1,5 +1,6 @@
 import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
+import { StatblockTransformer } from "./quartz/plugins/transformers/statblock"
 
 /**
  * Quartz 4.0 Configuration
@@ -59,6 +60,7 @@ const config: QuartzConfig = {
       Plugin.CreatedModifiedDate({
         priority: ["frontmatter", "filesystem"],
       }),
+      StatblockTransformer(), // Add this line
       Plugin.SyntaxHighlighting({
         theme: {
           light: "github-light",
