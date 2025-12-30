@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "category-folder/Giant Kobold.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Giant Kobold"
             }
           }
         ]
@@ -221,10 +221,10 @@
   },
   "active": "47ef711f7e8c1d64",
   "lastOpenFiles": [
+    "index.md",
     "category-folder/Giant Kobold.md",
     "category-folder/index.md",
     "category-folder/Some note.md",
-    "index.md",
     "skills/world-generator/SKILL.md",
     "skills/world-generator",
     "skills",

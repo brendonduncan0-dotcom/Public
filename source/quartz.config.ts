@@ -9,7 +9,7 @@ import { StatblockTransformer } from "./quartz/plugins/transformers/statblock"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🪴 Brendon's D&D Wiki",
+    pageTitle: "🪴 Brendon's D&D Vault",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,

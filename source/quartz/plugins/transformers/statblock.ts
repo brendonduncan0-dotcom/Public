@@ -60,16 +60,23 @@ export const StatblockTransformer: QuartzTransformerPlugin = () => {
                     })
 
                     html += `  <table class="statblock-abilities">\n`
-                    html += `    <thead><tr>\n`
+                    html += `    <tbody>\n`
+                    
+                    // First row: ability names
+                    html += `      <tr>\n`
                     abilities.forEach(ability => {
-                      html += `      <th>${ability}</th>\n`
+                      html += `        <th>${ability}</th>\n`
                     })
-                    html += `    </tr></thead>\n`
-                    html += `    <tbody><tr>\n`
+                    html += `      </tr>\n`
+                    
+                    // Second row: scores with modifiers
+                    html += `      <tr>\n`
                     data.stats.forEach((score: number, i: number) => {
-                      html += `      <td>${score} (${modifiers[i]})</td>\n`
+                      html += `        <td>${score} (${modifiers[i]})</td>\n`
                     })
-                    html += `    </tr></tbody>\n`
+                    html += `      </tr>\n`
+                    
+                    html += `    </tbody>\n`
                     html += `  </table>\n`
                   }
 
