@@ -68,3 +68,135 @@ export const StatblockTransformer: QuartzTransformerPlugin = () => {
                     html += `    <tbody><tr>\n`
                     data.stats.forEach((score: number, i: number) => {
                       html += `      <td>${score} (${modifiers[i]})</td>\n`
+                    })
+                    html += `    </tr></tbody>\n`
+                    html += `  </table>\n`
+                  }
+
+                  html += `  <hr class="statblock-separator">\n`
+
+                  // Saves, skills, resistances, immunities, senses, languages, CR
+                  if (data.saves && Array.isArray(data.saves) && data.saves.length > 0) {
+                    const saveNames = ["Str", "Dex", "Con", "Int", "Wis", "Cha"]
+                    const nonZeroSaves = data.saves
+                      .map((val: number, i: number) => val !== 0 ? `${saveNames[i]} +${val}` : null)
+                      .filter(Boolean)
+                    if (nonZeroSaves.length > 0) {
+                      html += `  <p><strong>Saving Throws</strong> ${nonZeroSaves.join(", ")}</p>\n`
+                    }
+                  }
+
+                  if (data.skillsaves) {
+                    const skills: string[] = []
+                    for (const [skill, bonus] of Object.entries(data.skillsaves)) {
+                      skills.push(`${skill.charAt(0).toUpperCase() + skill.slice(1)} +${bonus}`)
+                    }
+                    if (skills.length > 0) {
+                      html += `  <p><strong>Skills</strong> ${skills.join(", ")}</p>\n`
+                    }
+                  }
+
+                  if (data.damage_resistances) {
+                    html += `  <p><strong>Damage Resistances</strong> ${data.damage_resistances}</p>\n`
+                  }
+
+                  if (data.damage_immunities) {
+                    html += `  <p><strong>Damage Immunities</strong> ${data.damage_immunities}</p>\n`
+                  }
+
+                  if (data.condition_immunities) {
+                    html += `  <p><strong>Condition Immunities</strong> ${data.condition_immunities}</p>\n`
+                  }
+
+                  if (data.senses) {
+                    html += `  <p><strong>Senses</strong> ${data.senses}</p>\n`
+                  }
+
+                  if (data.languages) {
+                    html += `  <p><strong>Languages</strong> ${data.languages}</p>\n`
+                  }
+
+                  if (data.cr) {
+                    html += `  <p><strong>Challenge</strong> ${data.cr}</p>\n`
+                  }
+
+                  // Traits
+                  if (data.traits && Array.isArray(data.traits)) {
+                    html += `  <hr class="statblock-separator">\n`
+                    data.traits.forEach((trait: any) => {
+                      html += `  <p class="statblock-property">`
+                      if (trait.name) {
+                        html += `<strong><em>${trait.name}.</em></strong> `
+                      }
+                      if (trait.desc) {
+                        html += `${trait.desc}`
+                      }
+                      html += `</p>\n`
+                    })
+                  }
+
+                  // Actions
+                  if (data.actions && Array.isArray(data.actions)) {
+                    html += `  <h3 class="statblock-section-title">Actions</h3>\n`
+                    data.actions.forEach((action: any) => {
+                      html += `  <p class="statblock-property">`
+                      if (action.name) {
+                        html += `<strong><em>${action.name}.</em></strong> `
+                      }
+                      if (action.desc) {
+                        html += `${action.desc}`
+                      }
+                      html += `</p>\n`
+                    })
+                  }
+
+                  // Legendary Actions
+                  if (data.legendary_actions && Array.isArray(data.legendary_actions)) {
+                    html += `  <h3 class="statblock-section-title">Legendary Actions</h3>\n`
+                    if (data.legendary_desc) {
+                      html += `  <p>${data.legendary_desc}</p>\n`
+                    }
+                    data.legendary_actions.forEach((action: any) => {
+                      html += `  <p class="statblock-property">`
+                      if (action.name) {
+                        html += `<strong><em>${action.name}.</em></strong> `
+                      }
+                      if (action.desc) {
+                        html += `${action.desc}`
+                      }
+                      html += `</p>\n`
+                    })
+                  }
+
+                  // Reactions
+                  if (data.reactions && Array.isArray(data.reactions)) {
+                    html += `  <h3 class="statblock-section-title">Reactions</h3>\n`
+                    data.reactions.forEach((reaction: any) => {
+                      html += `  <p class="statblock-property">`
+                      if (reaction.name) {
+                        html += `<strong><em>${reaction.name}.</em></strong> `
+                      }
+                      if (reaction.desc) {
+                        html += `${reaction.desc}`
+                      }
+                      html += `</p>\n`
+                    })
+                  }
+
+                  html += `</div>`
+
+                  // Replace the code node with an HTML node
+                  node.type = "html"
+                  node.value = html
+                  delete node.lang
+                } catch (error) {
+                  console.error("Error parsing statblock:", error)
+                }
+              }
+            })
+          }
+        },
+      ]
+    },
+  }
+}
