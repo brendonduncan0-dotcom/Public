@@ -82,6 +82,7 @@ export const StatblockTransformer: QuartzTransformerPlugin = () => {
 
                   html += `  <hr class="statblock-separator">\n`
 
+                  /*
                   // Saves, skills, resistances, immunities, senses, languages, CR
                   if (data.saves && Array.isArray(data.saves) && data.saves.length > 0) {
                     const saveNames = ["Str", "Dex", "Con", "Int", "Wis", "Cha"]
@@ -92,21 +93,29 @@ export const StatblockTransformer: QuartzTransformerPlugin = () => {
                       html += `  <p><strong>Saving Throws</strong> ${nonZeroSaves.join(", ")}</p>\n`
                     }
                   }
+                  */
 
-                  /*
-                  //V1
-                  if (data.skillsaves) {
-                    const skills: string[] = []
-                    for (const [skill, bonus] of Object.entries(data.skillsaves)) {
-                      skills.push(`${skill.charAt(0).toUpperCase() + skill.slice(1)} +${bonus}`)
+                  // Saves, skills, resistances, immunities, senses, languages, CR
+                  if (data.saves && Array.isArray(data.saves) && data.saves.length > 0) {
+                    const saveNames = ["Str", "Dex", "Con", "Int", "Wis", "Cha"]
+                    const validSaves = data.saves
+                      .map((val: any, i: number) => {
+                        // Only include saves that have a valid number and aren't 0, null, undefined, or empty string
+                        if (val !== null && val !== undefined && val !== '' && val !== 0) {
+                          const bonus = typeof val === 'number' && val >= 0 ? `+${val}` : `${val}`
+                          return `${saveNames[i]} ${bonus}`
+                        }
+                        return null
+                      })
+                      .filter(Boolean) // Remove all null/undefined entries
+                    
+                    if (validSaves.length > 0) {
+                      html += `  <p><strong>Saving Throws</strong> ${validSaves.join(", ")}</p>\n`
                     }
-                    if (skills.length > 0) {
-                      html += `  <p><strong>Skills</strong> ${skills.join(", ")}</p>\n`
-                    }
-                  }   
-                 */
+                  }
 
-                  //V2
+
+
                   if (data.skillsaves) {
                     const skills: string[] = []
                     
