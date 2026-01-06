@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Campaigns/The Shattered Crown/Campaign Overview.md",
+                "file": "Statblocks/ethereal-dreadknight.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Campaign Overview"
+              "title": "ethereal-dreadknight"
             }
           }
         ]
@@ -221,6 +221,7 @@
   },
   "active": "47ef711f7e8c1d64",
   "lastOpenFiles": [
+    "Campaigns/The Shattered Crown/Campaign Overview.md",
     "Campaigns/The Shattered Crown/Campaign Quick Reference.md",
     "Campaigns/The Shattered Crown/Character Connections.md",
     "Campaigns/The Shattered Crown/Locations/Kingdom of Ironpeak.md",
@@ -251,7 +252,6 @@
     "Campaigns/The Shattered Crown/Magic Items Discovered.md",
     "Campaigns/The Shattered Crown/Lore Codex.md",
     "Campaigns/The Shattered Crown/Session Notes/Session 01 - A Crown of Thorns.md",
-    "Campaigns/The Shattered Crown/Campaign Overview.md",
     "Campaigns/The Shattered Crown/NPCs/Vesper the Wanderer.md",
     "Campaigns/The Shattered Crown/NPCs/Captain Mira Shadowend.md",
     "Campaigns/The Shattered Crown/Quests/Quest - The Fragment of Thornhaven.md",

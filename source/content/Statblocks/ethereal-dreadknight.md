@@ -9,10 +9,10 @@ hit_dice: 16d8 + 64
 speed: 30 ft., fly 30 ft. (hover)
 stats: [20, 14, 18, 12, 16, 18]
 saves:
-  - strength: 9
-  - constitution: 8
-  - wisdom: 7
-  - charisma: 8
+  - str: 9
+  - con: 8
+  - wis: 7
+  - cha: 8
 skillsaves:
   - perception: 7
   - intimidation: 8
