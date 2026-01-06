@@ -83,6 +83,7 @@ export const StatblockTransformer: QuartzTransformerPlugin = () => {
                   html += `  <hr class="statblock-separator">\n`
 
                   /*
+                  //V1
                   // Saves, skills, resistances, immunities, senses, languages, CR
                   if (data.saves && Array.isArray(data.saves) && data.saves.length > 0) {
                     const saveNames = ["Str", "Dex", "Con", "Int", "Wis", "Cha"]
@@ -95,6 +96,9 @@ export const StatblockTransformer: QuartzTransformerPlugin = () => {
                   }
                   */
 
+
+                  /* 
+                  //V2
                   // Saves, skills, resistances, immunities, senses, languages, CR
                   if (data.saves && Array.isArray(data.saves) && data.saves.length > 0) {
                     const saveNames = ["Str", "Dex", "Con", "Int", "Wis", "Cha"]
@@ -113,6 +117,48 @@ export const StatblockTransformer: QuartzTransformerPlugin = () => {
                       html += `  <p><strong>Saving Throws</strong> ${validSaves.join(", ")}</p>\n`
                     }
                   }
+                  */
+                 
+
+                  //V3
+                  // Saves - supports both positional array and named object array formats
+                  if (data.saves && Array.isArray(data.saves) && data.saves.length > 0) {
+                    const saveNames = ["Str", "Dex", "Con", "Int", "Wis", "Cha"]
+                    const validSaves: string[] = []
+                    
+                    // Check if it's named format (array of objects) or positional format (array of values)
+                    const isNamedFormat = data.saves.some((item: any) => typeof item === 'object' && item !== null)
+                    
+                    if (isNamedFormat) {
+                      // Named format: [{str: 9}, {con: 8}, {wis: 7}, {cha: 8}]
+                      data.saves.forEach((saveObj: any) => {
+                        if (typeof saveObj === 'object' && saveObj !== null) {
+                          for (const [ability, bonus] of Object.entries(saveObj)) {
+                            if (bonus !== null && bonus !== undefined && bonus !== '' && bonus !== 0) {
+                              // Capitalize first letter of ability name
+                              const capitalizedAbility = ability.charAt(0).toUpperCase() + ability.slice(1).toLowerCase()
+                              const bonusStr = typeof bonus === 'number' && bonus >= 0 ? `+${bonus}` : `${bonus}`
+                              validSaves.push(`${capitalizedAbility} ${bonusStr}`)
+                            }
+                          }
+                        }
+                      })
+                    } else {
+                      // Positional format: [0, 5, 0, 3, 0, 0] or [null, 5, null, 3, null, null]
+                      data.saves.forEach((val: any, i: number) => {
+                        if (val !== null && val !== undefined && val !== '' && val !== 0) {
+                          const bonusStr = typeof val === 'number' && val >= 0 ? `+${val}` : `${val}`
+                          validSaves.push(`${saveNames[i]} ${bonusStr}`)
+                        }
+                      })
+                    }
+                    
+                    if (validSaves.length > 0) {
+                      html += `  <p><strong>Saving Throws</strong> ${validSaves.join(", ")}</p>\n`
+                    }
+                  }
+
+                  
 
 
 
