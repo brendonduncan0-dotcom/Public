@@ -1,9 +1,6 @@
 ---
 title: Campaign Name
 ---
-
-# Campaign Name
-
 > [!summary] Campaign Overview
 > A brief description of the campaign's story, setting, and stakes. What are the warbands fighting over? What event kicked things off?
 

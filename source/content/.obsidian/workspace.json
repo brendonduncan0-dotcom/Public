@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Games/Age Of Fantasy Skirmish/Campaigns/Age Of Fantasy Skirmish Campaign Template.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Age Of Fantasy Skirmish Campaign Template"
             }
           }
         ]
@@ -226,27 +226,29 @@
       "initiative-tracker:Initiative Tracker Encounter Builder": false
     }
   },
-  "active": "5b9513e2c72c48d4",
+  "active": "b77831b90dd9f87b",
   "lastOpenFiles": [
-    "Age Of Fantasy Skirmish/Age Of Fantasy Skirmish.md",
+    "Untitled",
+    "Games/Age Of Fantasy Skirmish/Age Of Fantasy Skirmish.md",
+    "Games/Age Of Fantasy Skirmish/Campaigns/Age Of Fantasy Skirmish Campaign Template.md",
     "index.md",
-    "Age Of Fantasy Skirmish/Campaigns/Campaign Template.md",
-    "Age Of Fantasy Skirmish/Warbands/Warband Template.md",
-    "Age Of Fantasy Skirmish/Warbands",
+    "Games/Dungeons & Dragons/Statblocks/Zylox the Shapeshifter.md",
+    "Games/Dungeons & Dragons/Dungeons & Dragons.md",
+    "Games/Age Of Fantasy Skirmish/Warbands/Warband Template.md",
+    "Games",
+    "Games/Age Of Fantasy Skirmish/Warbands",
     "Age Of Fantasy Skirmish/Campaigns/Campaign Template",
-    "Age Of Fantasy Skirmish/Campaigns",
-    "Dungeons & Dragons/Dungeons & Dragons.md",
+    "Games/Age Of Fantasy Skirmish/Campaigns",
     "Tools/Claude Skills/dnd-campaign-builder/SKILL.md",
     "Skills/dnd-token-builder/SKILL.md",
     "Tools/Foundry-VTT-Exporter.md",
     "Tools/Claude Skills/dnd-statblock-builder prompt.md",
     "Tools/Claude Skills/dnd-location-builder prompt.md",
     "Todo.md",
-    "Dungeons & Dragons",
-    "Age Of Fantasy Skirmish",
+    "Games/Dungeons & Dragons",
+    "Games/Age Of Fantasy Skirmish",
     "Untitled.md",
-    "Dungeons & Dragons/Statblocks/Zylox the Shapeshifter.md",
-    "Dungeons & Dragons/Statblocks/Goblin.md",
+    "Games/Dungeons & Dragons/Statblocks/Goblin.md",
     "Campaigns/Spelljammer/Crew Roles/Crew Role - Bosun.md",
     "Campaigns/Spelljammer/Crew Roles/Crew Role - Spelljammer.md",
     "Campaigns/Spelljammer/Crew Roles/Crew Role - Quatermaster.md",
@@ -259,12 +261,10 @@
     "Tokens/goblin-token.svg",
     "Tokens",
     "Skills/dnd-token-builder",
-    "Skills",
-    "Dungeons & Dragons/Statblocks/Ethereal Dreadknight.md",
+    "Games/Dungeons & Dragons/Statblocks/Ethereal Dreadknight.md",
     "/Statblocks/Zylox the Shapeshifter.md",
     "Statblocks/Captain Stellara Vex.md",
     "Statblocks/Solarius the Eternal Flame.md",
-    "Statblocks/Giant Kobold.md",
     "Campaigns/01 - Light of Xaryxis/Source Book/img/adventure/LoX/credits2.webp",
     "Campaigns/01 - Light of Xaryxis/Source Book/img/adventure/LoX/credits1.webp",
     "Campaigns/01 - Light of Xaryxis/Source Book/img/adventure/LoX/credits.webp",
