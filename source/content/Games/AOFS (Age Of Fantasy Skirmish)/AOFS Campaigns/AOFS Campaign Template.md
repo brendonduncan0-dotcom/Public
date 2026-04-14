@@ -15,7 +15,7 @@ title: Campaign Name
 
 | Player | Warband Name         | Faction | W   | L   | D   |
 | ------ | -------------------- | ------- | --- | --- | --- |
-|        | [[Warband Template]] |         |     |     |     |
+|        | [[AOFS Warband Template]] |         |     |     |     |
 
 ---
 

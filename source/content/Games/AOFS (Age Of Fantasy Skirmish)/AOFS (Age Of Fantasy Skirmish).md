@@ -1,5 +1,5 @@
 ---
-title: Age Of Fantasy Skirmish
+title: AOFS (Age Of Fantasy Skirmish)
 ---
 Age of Fantasy Skirmish is a free, quick-play tabletop miniature wargame by [One Page Rules](https://onepagerules.com/games/age-of-fantasy-skirmish). Players build small warbands and clash in fast-paced battles set in a world of magic, ancient ruins, and warring factions. The rules are deliberately streamlined — the full core rules fit on a single page — making it easy to pick up and play without sacrificing tactical depth.
 
@@ -22,7 +22,7 @@ Each unit has just two core stats — Quality and Defence — plus weapon profil
 
 ## Current Campaigns
 
-*Link campaign logs here as they're created. Use the [[Age Of Fantasy Skirmish Campaign Template]] to start a new one.*
+*Link campaign logs here as they're created. Use the [[AOFS Campaign Template]] to start a new one.*
 
 ---
 

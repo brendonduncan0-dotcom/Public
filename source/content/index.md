@@ -7,10 +7,10 @@ This is a living wiki for the various games I run with friends — a place to ke
 
 ## Games We're Currently Playing
 
-### ⚔️ [[Age Of Fantasy Skirmish]]
+### ⚔️ [[AOFS (Age Of Fantasy Skirmish)]]
 Warbands, rules references, and campaign tracking for our Age of Fantasy Skirmish games. Includes faction notes, rosters, and battle reports.
 
-### 🎲 [[Dungeons & Dragons]]
+### 🎲 [[D&D (Dungeons & Dragons)]]
 Notes, lore, and resources for ongoing D&D campaigns. Includes NPC statblocks, world-building details, and session references.
 
 
