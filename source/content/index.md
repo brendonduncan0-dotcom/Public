@@ -1,9 +1,9 @@
 ---
 title: Home
 ---
-# Welcome to Brendon's Game Wiki
+# Welcome to Brendon's Wiki
 
-This is a living reference for the tabletop games I run with friends — a place to keep lore, rules, characters, and campaign notes organised and accessible.
+This is a living reference for the various tabletop games I run with friends — a place to keep lore, rules, characters, and campaign notes organised and accessible.
 
 Whether you're a player looking up a character, refreshing your memory on a plot thread, or just curious about the worlds we've built together — you're in the right place.
 
