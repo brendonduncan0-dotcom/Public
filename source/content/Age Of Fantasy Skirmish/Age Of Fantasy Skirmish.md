@@ -1,9 +1,6 @@
 ---
 title: Age Of Fantasy Skirmish
 ---
-
-# Age Of Fantasy Skirmish
-
 Age of Fantasy Skirmish is a free, quick-play tabletop miniature wargame by [One Page Rules (OPR)](https://onepagerules.com/games/age-of-fantasy-skirmish). Players build small warbands and clash in fast-paced battles set in a world of magic, ancient ruins, and warring factions. The rules are deliberately streamlined — the full core rules fit on a single page — making it easy to pick up and play without sacrificing tactical depth.
 
 > [!info] Our Games
