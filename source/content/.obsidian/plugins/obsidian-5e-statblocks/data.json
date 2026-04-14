@@ -15,13 +15,13 @@
   "paths": [
     "/"
   ],
-  "autoParse": false,
-  "disableSRD": false,
+  "autoParse": true,
+  "disableSRD": true,
   "tryToRenderLinks": true,
   "debug": false,
   "notifiedOfFantasy": false,
   "hideConditionHelp": false,
-  "alwaysImport": false,
+  "alwaysImport": true,
   "defaultLayoutsIntegrated": true,
   "atomicWrite": false
 }

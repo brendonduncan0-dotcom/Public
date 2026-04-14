@@ -1,0 +1,10 @@
+{
+    "id": "foundry-vtt-exporter",
+    "name": "Foundry VTT Exporter",
+    "version": "0.1.0",
+    "minAppVersion": "0.15.0",
+    "description": "Export Fantasy Statblocks to Foundry VTT as a module with compendiums",
+    "author": "Your Name",
+    "authorUrl": "https://github.com/yourusername",
+    "isDesktopOnly": false
+}

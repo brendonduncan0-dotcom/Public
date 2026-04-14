@@ -1,9 +1,10 @@
 [
-  "obsidian-git",
   "obsidian-5e-statblocks",
   "obsidian-dice-roller",
   "initiative-tracker",
   "mcp-tools",
   "templater-obsidian",
-  "obsidian-local-rest-api"
+  "obsidian-local-rest-api",
+  "foundry-vtt-exporter",
+  "obsidian-git"
 ]

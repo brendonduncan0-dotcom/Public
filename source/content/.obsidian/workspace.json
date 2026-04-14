@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "0571c1c94d829fac",
+        "id": "cb188a93db8d999a",
         "type": "tabs",
         "children": [
           {
-            "id": "47ef711f7e8c1d64",
+            "id": "5b9513e2c72c48d4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statblocks/ethereal-dreadknight.md",
+                "file": "Age Of Fantasy Skirmish/Campaigns/Campaign Template.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ethereal-dreadknight"
+              "title": "Campaign Template"
             }
           }
         ]
@@ -170,19 +170,9 @@
               "icon": "initiative-tracker",
               "title": "Initiative Tracker"
             }
-          },
-          {
-            "id": "d9e84be88a82a860",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       },
       {
         "id": "15c1a3344db89b8a",
@@ -199,13 +189,30 @@
             }
           }
         ]
+      },
+      {
+        "id": "8fe1fc6dc56cf855",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "05f0d1b54f537c83",
+            "type": "leaf",
+            "state": {
+              "type": "initiative-tracker-creature-view",
+              "state": {},
+              "icon": "initiative-tracker-creature-view",
+              "title": "Combatant"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 532.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "foundry-vtt-exporter:Export to Foundry VTT (D&D 5e)": false,
       "templater-obsidian:Templater": false,
       "obsidian-git:Open Git source control": false,
       "bases:Create new base": false,
@@ -219,43 +226,45 @@
       "initiative-tracker:Initiative Tracker Encounter Builder": false
     }
   },
-  "active": "47ef711f7e8c1d64",
+  "active": "5b9513e2c72c48d4",
   "lastOpenFiles": [
-    "Untitled.base",
-    "Statblocks/ethereal-dreadknight.md",
-    "Campaigns/The Shattered Crown/Campaign Overview.md",
-    "Campaigns/The Shattered Crown/Campaign Quick Reference.md",
-    "Campaigns/The Shattered Crown/Character Connections.md",
-    "Campaigns/The Shattered Crown/Locations/Kingdom of Ironpeak.md",
-    "Campaigns/The Shattered Crown/Locations/Thornhaven.md",
+    "Age Of Fantasy Skirmish/Warbands/Warband Template.md",
+    "Age Of Fantasy Skirmish/Campaigns/Campaign Template.md",
+    "Age Of Fantasy Skirmish/Warbands",
+    "Age Of Fantasy Skirmish/Age Of Fantasy Skirmish.md",
+    "Age Of Fantasy Skirmish/Campaigns/Campaign Template",
     "index.md",
+    "Age Of Fantasy Skirmish/Campaigns",
+    "Dungeons & Dragons/Dungeons & Dragons.md",
     "Tools/Claude Skills/dnd-campaign-builder/SKILL.md",
+    "Skills/dnd-token-builder/SKILL.md",
+    "Tools/Foundry-VTT-Exporter.md",
     "Tools/Claude Skills/dnd-statblock-builder prompt.md",
-    "Campaigns/The Shattered Crown/Campaign Calendar.md",
-    "Statblocks/vorthaxis-the-evernight.md",
-    "Tools/Claude Skills/dnd-statblock-builder.skill",
-    "Tools/Claude Skills/dnd-statblock-builder/SKILL.md",
-    "Tools/Claude Skills/dnd-creature-builder",
-    "Statblocks/bestiary/beholder-rogue.md",
-    "Statblocks/chronomancer-shade.md",
-    "Statblocks/bestiary",
-    "Tools/Claude Skills/dnd-statblock-builder (1).zip",
-    "Bestiary/beholder-rogue.md",
-    "Bestiary/chronomancer-shade.md",
-    "Statblocks",
-    "Tools/Claude Skills/dnd-statblock-builder.zip",
-    "Campaigns/Example Campaign/World/Atlas/Planes/Astral Plane.md",
-    "Tools/Claude Skills/dnd-statblock-builder/SKILL.skill",
-    "Tools/Claude Skills/dnd-statblock-builder/dnd-statblock-builder.skill",
-    "Tools/Claude Skills/dnd-statblock-builder",
-    "Campaigns/01 - Light of Xaryxis/Source Book/Light of Xaryxis.md",
-    "Campaigns/The Shattered Crown/Magic Items Discovered.md",
-    "Campaigns/The Shattered Crown/Lore Codex.md",
-    "Campaigns/The Shattered Crown/Session Notes/Session 01 - A Crown of Thorns.md",
-    "Campaigns/The Shattered Crown/NPCs/Vesper the Wanderer.md",
-    "Campaigns/The Shattered Crown/NPCs/Captain Mira Shadowend.md",
-    "Campaigns/The Shattered Crown/Quests/Quest - The Fragment of Thornhaven.md",
-    "Tools/Claude Skills/Uncompiled Skills/dnd-campaign-builder/SKILL.md",
+    "Tools/Claude Skills/dnd-location-builder prompt.md",
+    "Todo.md",
+    "Dungeons & Dragons",
+    "Age Of Fantasy Skirmish",
+    "Untitled.md",
+    "Dungeons & Dragons/Statblocks/Zylox the Shapeshifter.md",
+    "Dungeons & Dragons/Statblocks/Goblin.md",
+    "Campaigns/Spelljammer/Crew Roles/Crew Role - Bosun.md",
+    "Campaigns/Spelljammer/Crew Roles/Crew Role - Spelljammer.md",
+    "Campaigns/Spelljammer/Crew Roles/Crew Role - Quatermaster.md",
+    "Campaigns/Spelljammer/Crew Roles/Crew Role Gunner.md",
+    "Campaigns/Spelljammer/Crew Roles/Crew Role - Captain.md",
+    "Campaigns/Spelljammer/Crew Roles",
+    "Campaigns/Spelljammer",
+    "Rock of Bral.md",
+    "Campaigns/Wildspace Encounters - The Shattered Sphere.md",
+    "Tokens/goblin-token.svg",
+    "Tokens",
+    "Skills/dnd-token-builder",
+    "Skills",
+    "Dungeons & Dragons/Statblocks/Ethereal Dreadknight.md",
+    "/Statblocks/Zylox the Shapeshifter.md",
+    "Statblocks/Captain Stellara Vex.md",
+    "Statblocks/Solarius the Eternal Flame.md",
+    "Statblocks/Giant Kobold.md",
     "Campaigns/01 - Light of Xaryxis/Source Book/img/adventure/LoX/credits2.webp",
     "Campaigns/01 - Light of Xaryxis/Source Book/img/adventure/LoX/credits1.webp",
     "Campaigns/01 - Light of Xaryxis/Source Book/img/adventure/LoX/credits.webp",
@@ -264,7 +273,6 @@
     "Campaigns/01 - Light of Xaryxis/Source Book/img/adventure/LoX/045-map-12.03-cathedral-of-light-player.webp",
     "Campaigns/01 - Light of Xaryxis/Source Book/img/adventure/LoX/044-map-12.03-cathedral-of-light.webp",
     "Campaigns/01 - Light of Xaryxis/Source Book/img/adventure/LoX/043-map-12.02-imperial-citadel-player.webp",
-    "Campaigns/01 - Light of Xaryxis/Source Book/img/adventure/LoX/042-map-12.02-imperial-citadel.webp",
-    "Campaigns/01 - Light of Xaryxis/Source Book/img/adventure/LoX/041-map-12.01-xaryxis-space-player.webp"
+    "Campaigns/01 - Light of Xaryxis/Source Book/img/adventure/LoX/042-map-12.02-imperial-citadel.webp"
   ]
 }
