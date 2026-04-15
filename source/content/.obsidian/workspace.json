@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Games/AOFS (Age Of Fantasy Skirmish)/AOFS (Age Of Fantasy Skirmish).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "AOFS (Age Of Fantasy Skirmish)"
             }
           }
         ]
@@ -228,12 +228,14 @@
   },
   "active": "5b9513e2c72c48d4",
   "lastOpenFiles": [
-    "Games/D&D (Dungeons & Dragons)/D&D (Dungeons & Dragons).md",
-    "Games/AOFS (Age Of Fantasy Skirmish)/AOFS (Age Of Fantasy Skirmish).md",
-    "Games/AOFS (Age Of Fantasy Skirmish)/AOFS Warbands/AOFS Warband Template.md",
-    "Games/AOFS (Age Of Fantasy Skirmish)/AOFS Campaigns/AOFS Campaign Template.md",
-    "Untitled",
     "index.md",
+    "Games/AOFS (Age Of Fantasy Skirmish)/AOFS Campaigns/AOFS Campaign 1.md",
+    "Games/AOFS (Age Of Fantasy Skirmish)/AOFS Campaigns/AOFS Campaign Template.md",
+    "Games/AOFS (Age Of Fantasy Skirmish)/AOFS Warbands/AOFS Warband Template.md",
+    "Games/AOFS (Age Of Fantasy Skirmish)/AOFS (Age Of Fantasy Skirmish).md",
+    "Games/AOFS (Age Of Fantasy Skirmish)/AOFS Rules",
+    "Games/D&D (Dungeons & Dragons)/D&D (Dungeons & Dragons).md",
+    "Untitled",
     "Games/D&D (Dungeons & Dragons)/D&D Statblocks/Zylox the Shapeshifter.md",
     "Games",
     "Games/AOFS (Age Of Fantasy Skirmish)/AOFS Warbands",
@@ -259,7 +261,6 @@
     "Rock of Bral.md",
     "Campaigns/Wildspace Encounters - The Shattered Sphere.md",
     "Tokens/goblin-token.svg",
-    "Tokens",
     "Games/D&D (Dungeons & Dragons)/D&D Statblocks/Ethereal Dreadknight.md",
     "/Statblocks/Zylox the Shapeshifter.md",
     "Statblocks/Captain Stellara Vex.md",

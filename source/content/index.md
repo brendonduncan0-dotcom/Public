@@ -1,5 +1,5 @@
 ---
-title: Brendon's Wiki
+title: Brendon's Wiki Homepage
 ---
 This is a living wiki for the various games I run with friends — a place to keep rules, guides, and campaign notes organised and accessible.
 
@@ -8,7 +8,7 @@ This is a living wiki for the various games I run with friends — a place to ke
 ## Games We're Currently Playing
 
 ### ⚔️ [[AOFS (Age Of Fantasy Skirmish)]]
-Warbands, rules references, and campaign tracking for our Age of Fantasy Skirmish games. Includes faction notes, rosters, and battle reports.
+Campaign & warband tracking for our Age of Fantasy Skirmish games. Includes tips for getting started, useful links & any specific rules for each campaign.
 
 ### 🎲 [[D&D (Dungeons & Dragons)]]
 Notes, lore, and resources for ongoing D&D campaigns. Includes NPC statblocks, world-building details, and session references.
