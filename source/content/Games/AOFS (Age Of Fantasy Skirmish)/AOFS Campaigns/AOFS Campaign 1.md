@@ -87,7 +87,7 @@ title: Campaign 1
 > 
 > When a unit earns 5XP, they get stronger (See [[AOFS Earn Experience]]).
 
->[!summary] Recruit Units & Upgrade Warbands
+>[!summary] Recruiting Units & Upgrading Warbands
 > After earning experience, players may recruit new units & upgrade their warband. 
 > 
 > When recruiting a new unit, players can spend 10pts to have it start with 5 XP.
