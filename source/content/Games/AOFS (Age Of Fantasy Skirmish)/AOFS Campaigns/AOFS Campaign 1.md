@@ -24,22 +24,22 @@ title: Campaign 1
 
 ## Warbands
 
-| Player  | Warband Name | Faction | VP  | Unspent Pts |
-| ------- | ------------ | ------- | --- | ----------- |
-| Brendon |              | Goblins | 0   | 150         |
-| Mira    |              |         | 0   | 150         |
-| Chad    |              |         |     | 150         |
-| Grae    |              |         |     | 150         |
-| AJ      |              |         |     | 150         |
+| Player  | Warband Name | Faction | VP  | Matches Played | Unspent Pts |
+| ------- | ------------ | ------- | --- | -------------- | ----------- |
+| Brendon |              |         | 0   | 0              | 150         |
+| Mira    |              |         | 0   | 0              | 150         |
+| Chad    |              |         | 0   | 0              | 150         |
+| Grae    |              |         | 0   | 0              | 150         |
+| AJ      |              |         | 0   | 0              | 150         |
 
 ---
 
 ## Mission Reports
 
-| Mission # | Match # | Players | Scenario | Winner | Summary |
-| --------- | ------- | ------- | -------- | ------ | ------- |
-| 01        | 01      |         |          |        |         |
-|           |         |         |          |        |         |
+| Mission # | Match # | Players | Scenario | Winner | Summary |     |
+| --------- | ------- | ------- | -------- | ------ | ------- | --- |
+| 01        | 01      |         |          |        |         |     |
+|           |         |         |          |        |         |     |
 
 ---
 
