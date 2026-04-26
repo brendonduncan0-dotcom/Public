@@ -38,12 +38,12 @@ title: Campaign 1
 ## Campaign Rules
 
 >[!summary] Building A Warband
-   Warbands must follow the Force Organization rules:
-   **Heroes**: Only one hero per 125pts.
-> **Copies of Same Unit**: Only 1+X copies of the same unit, where X is 1 per 125pts.
-> **Most Expensive Unit**: No single unit can be worth over 35% of total points.
-> **Total Units**: Only 1 unit per 25pts.
-> **Total Models**: Only 1 model per 15pts.
+>   Warbands must follow the Force Organization rules:
+>  -  **Heroes**: Only one hero per 125pts.
+>   - **Copies of Same Unit**: Only 1+X copies of the same unit, where X is 1 per 125pts.
+>   - **Most Expensive Unit**: No single unit can be worth over 35% of total points.
+>   - **Total Units**: Only 1 unit per 25pts.
+>   - **Total Models**: Only 1 model per 15pts.
 > 
 > New warbands receive 150pts and late joiners receive an additional 25pts for each mission they missed.
 > 
