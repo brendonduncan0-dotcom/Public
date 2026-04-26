@@ -2,14 +2,21 @@
 title: Campaign Name
 ---
 
->[!summary] Campaign Overview
-> A brief description of the campaign's story, setting, and stakes. What are the warbands fighting over? What event kicked things off?
-
-**Status:** Ongoing / Completed  
 **Started:** YYYY-MM-DD  
-**Ended:** YYYY-MM-DD  
-**Number of Rounds:** 0
+**Status:** Not Started   
+**Campaign Type:** 0
 
+>[!summary] Campaign Types
+> **Game-Limited:** Play D6+4 missions, and after the last match, the player with the most VP wins.
+> 
+> **Point-Limited:** The campaign ends when one player has earned D6+4 VP after a match, who wins.
+> 
+> **Time-Limited:** The campaign ends after D6+4 weeks/moths, and the player with the most VP at the end wins.
+> 
+> **Endless:** The campaign never ends, but instead players track how many VP they have earned on an ongoing campaign leaderboard.
+
+>[!summary] Campaign Types
+> **Game-Limited:** Play D6+4 missions, and after the last match, the player with the most VP wins.
 ---
 
 ## Warbands
