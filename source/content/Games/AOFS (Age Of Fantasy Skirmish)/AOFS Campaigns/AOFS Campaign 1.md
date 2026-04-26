@@ -62,7 +62,7 @@ title: Campaign 1
 > 
 > **Underdog Bonus:** Any warband that has a point value lower than at least one other warband in the game gets an underdog bonus. They get 1 underdog point for every 10pts difference between their warband and the one with the highest value. Each underdog point can be spent to modify all dice in a friendly or enemy roll by +1 or -1, but only one point can be spent per role.
 > 
-> **Special Objectives:** In addition to the mission objectives, all players must roll for a random bonus objective (See [[AOFS Special Objectives]]).
+> **Special Objectives:** In addition to the mission objectives, players may earn a bonus 10 pts by completing special objectives. Players roll for a random bonus objective (See [[AOFS Special Objectives]]).
 
 >[!summary] Playing Missions
 > **Mission Length:** Missions are played with standard rules over 4 rounds.
