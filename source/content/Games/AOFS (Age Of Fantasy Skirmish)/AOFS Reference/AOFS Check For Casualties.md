@@ -1,8 +1,11 @@
 ---
 title: Check For Casualties
 ---
-## Regular Units:
-For every unit that is a casualty, roll one die to see what happens:
+
+>[!info] Note
+> **Casualties:** At the end of the game, all units that were Knocked Out or Routed count as casualties.
+
+**Regular Units:** For every unit that is a casualty, roll one die to see what happens:
 
 | Result | Regular Units                                                               |
 | ------ | --------------------------------------------------------------------------- |
@@ -10,8 +13,7 @@ For every unit that is a casualty, roll one die to see what happens:
 | 2-5    | **Recovered** - Unit recovers and may be used without penalties.            |
 | 6      | **Natural Talent** - Unit recovers and earns +1 XP.                         |
 
-## Hero Units:
-For every hero that is a casualty, roll one die to see what happens:
+**Hero Units:** For every hero that is a casualty, roll one die to see what happens:
 
 | Result | Hero Units                                                                              |
 | ------ | --------------------------------------------------------------------------------------- |
@@ -28,11 +30,6 @@ For every hero that is a casualty, roll one die to see what happens:
 | 5      | **Traumatized** - Gets -1 to rolls when taking morale tests.                 |
 | 6      | **Smashed Leg** - Moves -1" on advance and -2" on rush and charge actions.   |
 
-
->[!summary] Talent Trait
-> Each trait (Except for Natural Talent) can only be gained once, so if you roll a trait you already have, keep re-rolling until you get a new trait you don't have yet.
-
-
 | **Result** | **Talent Trait**                                                                |
 | ---------- | ------------------------------------------------------------------------------- |
 | **1**      | **Natural Talent** - Gets +1 XP.                                                |
@@ -42,7 +39,12 @@ For every hero that is a casualty, roll one die to see what happens:
 | **5**      | **Horrible Scars** - Enemy units get -1 to hit when in melee against this hero. |
 | **6**      | **Toughened** - Gets Tough(+1).                                                 |
 
+>[!info] Note
+> Each talent trait (Except for Natural Talent) can only be gained once, so if you roll a trait you already have, keep re-rolling until you get a new trait you don't have yet.
+> 
 
->[!Info] Optional Rule: No Permadeath (Refer To Campaign)
->In a campaign with this rule, you can play without units being removed from the warband when they die, but instead they lose all XP earned during the match and must sit out the next D3 matches.
+## Optional Rules
+
+>[!warning] Optional Rule (Refer to Campaign)
+>**No Permadeath:** In a campaign with this rule, you can play without units being removed from the warband when they die, but instead they lose all XP earned during the match and must sit out the next D3 matches.
 

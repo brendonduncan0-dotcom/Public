@@ -1,7 +1,7 @@
 ---
 title: Special Objectives
 ---
- In addition to the mission objectives, players may earn a bonus 10pts by completing a special objective. Roll one die each to see which objective you get.
+In addition to the mission objectives, players may earn a bonus 10pts by completing a special objective. Roll one die each to see which objective you get.
 
 | Result | Objective                                                         |
 | ------ | ----------------------------------------------------------------- |
