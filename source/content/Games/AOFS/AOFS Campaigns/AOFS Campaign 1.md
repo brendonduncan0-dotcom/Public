@@ -25,16 +25,16 @@ title: Campaign 1
 
 ## Leader Board
 
-| Player  | Discord Username     | Warband Link                                   | File Pack                                             | Matches Played | Wins | Total VP | Average VP/Game |
-| ------- | -------------------- | ---------------------------------------------- | ----------------------------------------------------- | -------------- | ---- | -------- | --------------- |
-| Austin  | Ereptile Dysfunction | [[Army Forge _ Austin Campaign 1 255pts.pdf]]  |                                                       | 3              | 2    | 46       | 15.34           |
-| Chad    | NikoLiberty2008      | [[Army Forge _ Chad Campaign 1 245pts.pdf]]    |                                                       | 4              | 2    | 55       | 13.75           |
-| Brendon | Brendon D            | [[Army Forge _ Brendon Campaign 1 240pts.pdf]] |                                                       | 4              | 3    | 53       | 13.25           |
-| AJ      | manjewelz            | [[Army Forge _ AJ Campaign 1 260pts.pdf]]      |                                                       | 3              | 1    | 23       | 7.67            |
-| Mira    | Mira                 | [[Army Forge _ Mira Campaign 1 250pts.pdf]]    |                                                       | 3              | 1    | 20       | 6.67            |
-| Simon   | simonljonesy         | [[Army Forge _ Simon 220pts.pdf]]              |                                                       | 3              | 0    | 20       | 6.67            |
-| Grae    | Grae                 | [[Army Forge _ Grae Campaign 1 290pts.pdf]]    |                                                       | 3              | 1    | 18       | 6               |
-| Jarrett | mith                 | [[Army Forge _ Jarrett Campaign 1 255pts.pdf]] | [[File Pack - Dwarf Steampunk By Rescale Miniatures]] | 3              | 0    | 8        | 2.67            |
+| Player  | Discord Username     | Warband Link                                     | File Pack                                             | Matches Played | Wins | Total VP | Average VP/Game |
+| ------- | -------------------- | ------------------------------------------------ | ----------------------------------------------------- | -------------- | ---- | -------- | --------------- |
+| Austin  | Ereptile Dysfunction | [[Army Forge _ Austin Campaign 1 255pts.pdf]]    |                                                       | 3              | 2    | 46       | 15.34           |
+| Chad    | NikoLiberty2008      | [[Army Forge _ Chad Campaign 1 245pts.pdf]]      |                                                       | 4              | 2    | 55       | 13.75           |
+| Brendon | Brendon D            | [[Army Forge _ Brendon Campaign 1 240pts.pdf]]   |                                                       | 4              | 3    | 53       | 13.25           |
+| AJ      | manjewelz            | [[Army Forge _ AJ Campaign 1 295pts.pdf]]        |                                                       | 4              | 2    | 39       | 9.75            |
+| Mira    | Mira                 | [[Army Forge _ Mira Campaign 1 300pts.pdf]]      |                                                       | 4              | 1    | 32       | 8               |
+| Simon   | simonljonesy         | [[Army Forge _ Simon Campaign 1 (2) 270pts.pdf]] |                                                       | 4              | 0    | 32       | 8               |
+| Jarrett | mith                 | [[Army Forge _ Jarrett Campaign 1 265pts.pdf]]   | [[File Pack - Dwarf Steampunk By Rescale Miniatures]] | 4              | 1    | 24       | 6               |
+| Grae    | Grae                 | [[Army Forge _ Grae Campaign 1 290pts.pdf]]      |                                                       | 3              | 1    | 18       | 6               |
 
 
 ---
